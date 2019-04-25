@@ -1,13 +1,21 @@
-header {
-  .a {
-    color: red;
-    font-size: 10px;
-  }
-}
+/* vendors */
 
-h1{
-  color:orange;
-  display: flex;
-  font-size:20px;
-}
+@import 'vendors/reset.scss';
 
+
+/* config */
+
+@import 'config/fonts.scss';
+@import 'config/colors.scss';
+
+
+/* layout */
+
+@import 'global/layout.scss';
+
+
+/* blocs */
+
+@import 'blocs/header.scss';
+@import 'blocs/sections.scss';
+@import 'blocs/footer.scss'

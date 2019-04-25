@@ -1,0 +1,9 @@
+{
+  "plugins": {
+    "postcss-pxtorem": {
+      propList: ['*'],
+      replace: false
+    },
+      "autoprefixer": true
+  }
+}

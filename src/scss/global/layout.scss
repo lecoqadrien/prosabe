@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  color: $white;
+  font-family: 'Muli';
+  background-image: url(../assets/imgs/space-background.jpg);
+  background-size: contain;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 10px 10px;
+  font-family: 'Arkhip';
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+  font-size: 64px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+p {
+  margin: 40px 10px;
+  line-height: 165%;
+}

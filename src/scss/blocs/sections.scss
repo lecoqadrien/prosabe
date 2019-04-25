@@ -1,0 +1,59 @@
+.planet {
+  z-index: -1;
+  position: absolute;
+}
+
+.planet-1 {
+  height: 170%;
+  right: -26%;
+  top: -70%;
+  z-index:2;
+  transition: all 0.2s;
+}
+
+.planet-2 {
+  left: -30%;
+  top: -10%;
+  height: 160%;
+}
+
+.planet-3 {
+  bottom: -50%;
+  left: 5%;
+  height: 80%;
+}
+
+.planet-4 {
+  height: 50%;
+  top: 20%;
+  right: 8%;
+}
+.planet-5 {
+  height: 90%;
+  bottom: 100%;
+  right: -10%;
+}
+
+.planet-6 {
+  left: 5%;
+  height: 110%;
+}
+.presentation {
+  display: flex;
+
+  .text {
+    position: relative;
+    z-index: 100;
+    margin-top: 10%;
+    width: 40%;
+    margin-left: 80px;
+  }
+}
+
+/* 
+section:nth-child(2n + 1) {
+  background-color: red;
+}
+section:nth-child(2n) {
+  background-color: blue;
+} */
